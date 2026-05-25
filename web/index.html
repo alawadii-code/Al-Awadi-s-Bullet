@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Awadi's Bullet</title>
+    <meta name="description"
+        content="Al-Awadi's Bullet is a free and open source aim trainer for improving aim in both 2D and 3D games. Built with Godot.">
+    <meta name="keywords"
+        content="Al-Awadi's Bullet, aim trainer, Godot, 2D, 3D, improve aim, training, customizable, free, open source">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <div style="display: flex; justify-content: center; vertical-align: middle;">
+            <h1 style="padding: 0px 10px;">Al-Awadi's Bullet</h1>
+        </div>
+    </header>
+    <main>
+        <button class="button" onclick="window.location.href='./game/game.html'">Play</button>
+        <img src="play.svg" width="200rem" alt="Play" class="play-button" onclick="window.location.href='./game/game.html'" />
+
+        <section>
+            <h2>About</h2>
+            <p><strong>Al-Awadi's Bullet</strong> is a free and open source aim trainer that helps you improve your aim
+                in both 2D and 3D games. Built with the Godot game engine.</p>
+            <p>Features multiple training modes:</p>
+            <ul>
+                <li><strong>Static targets</strong> for accuracy training</li>
+                <li><strong>Moving targets</strong> for tracking practice</li>
+            </ul>
+            <p>Fully customizable crosshair, sensitivity, and visual settings.</p>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li>Built with Godot</li>
+                <li>Multiple training modes</li>
+                <li>Customizable settings</li>
+                <li>Free and open source</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Get Started</h2>
+            <ol>
+                <li>Download the latest release</li>
+                <li>Install on your computer</li>
+                <li>Start training!</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>Al-Awadi's Bullet</p>
+    </footer>
+</body>
+
+</html>
+
+<style>
+body, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #1a1a2e;
+    color: #eee;
+}
+header {
+    background-color: #e94560;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+header h1 {
+    font-size: 2rem;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+ul, ol {
+    padding-left: 1.5rem;
+}
+ul li, ol li {
+    margin-bottom: 0.5rem;
+}
+a {
+    color: #e94560;
+}
+footer {
+    background-color: #16213e;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #888;
+}
+.button {
+    display: block;
+    font-size: 50px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.button:hover {
+    background-color: #ddd;
+}
+.button:active {
+    background-color: #bbb;
+}
+.play-button {
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    animation: pulse 1s ease-in-out infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+</style>
