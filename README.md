@@ -5,7 +5,6 @@
 **A free and open-source aim trainer built with Godot 4**
 
 [![Godot Version](https://img.shields.io/badge/Godot-4.6-478cbf?logo=godot-engine&logoColor=white)](https://godotengine.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Web-blue)](#)
 
 </div>
